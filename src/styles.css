@@ -66,6 +66,19 @@
   --color-subtle: var(--text-light);
   --font-display: "Plus Jakarta Sans", sans-serif;
   --font-sans: "Inter", sans-serif;
+  --font-serif-display: "Instrument Serif", serif;
+  --font-store: "Work Sans", sans-serif;
+  --color-store-bg: var(--store-bg);
+  --color-store-tile: var(--store-tile);
+  --color-store-accent: var(--store-accent);
+  --color-store-text: var(--store-text);
+}
+
+:root {
+  --store-bg: oklch(0.15 0.02 290);
+  --store-tile: oklch(0.21 0.03 290);
+  --store-accent: oklch(0.54 0.24 293);
+  --store-text: oklch(0.96 0.01 290);
 }
 
 :root {
