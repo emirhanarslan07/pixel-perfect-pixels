@@ -6,6 +6,8 @@ export const Route = createFileRoute("/")({
   },
   head: () => ({
     meta: [
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { title: "Sety — Türkiye'nin Creator Mağazası" },
       { name: "description", content: "Link-in-bio mağazanı kur, dijital ürün ve koçluk sat." },
       { property: "og:title", content: "Sety — Türkiye'nin Creator Mağazası" },

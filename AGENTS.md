@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Admin pages use one shared AdminShell and separate leaf routes so navigation and page metadata stay consistent.
+- Demo products, profile, and preferences live in a root React context only; frontend edits survive navigation without implying backend persistence.
+- Reusable admin widgets and example order data are separate from leaf routes to keep route splitting safe.
